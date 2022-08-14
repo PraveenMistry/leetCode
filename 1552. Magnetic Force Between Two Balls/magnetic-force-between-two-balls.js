@@ -40,3 +40,4 @@ var maxDistance = function(position, m) {
 Runtime: 305 ms, faster than 77.94% of JavaScript online submissions for Magnetic Force Between Two Balls.
 Memory Usage: 54.1 MB, less than 36.76% of JavaScript online submissions for Magnetic Force Between Two Balls.
 */
+
