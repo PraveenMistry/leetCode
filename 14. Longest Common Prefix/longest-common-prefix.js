@@ -44,3 +44,28 @@ var findPrefixUntill  = function(str1, str2){
 Runtime: 571 ms
 Memory Usage: 49.9 MB
 */
+
+
+// OR
+
+
+/**
+ * @param {string[]} strs
+ * @return {string}
+ */
+var longestCommonPrefix = function(strs) {
+    if (strs.length == 0)
+      return "";
+
+    for (let i = 0; i < strs[0].length; ++i)
+      for (let j = 1; j < strs.length; ++j)
+        if (i == strs[j].length || strs[j][i] != strs[0][i])
+          return strs[0].substring(0, i);
+
+    return strs[0];
+};
+
+/*
+Runtime: 140 ms, faster than 5.73% of JavaScript online submissions for Longest Common Prefix.
+Memory Usage: 42.2 MB, less than 83.83% of JavaScript online submissions for Longest Common Prefix.
+*/
