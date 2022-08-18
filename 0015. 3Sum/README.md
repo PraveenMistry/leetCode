@@ -1,4 +1,4 @@
-### (15. 3Sum)[https://leetcode.com/problems/3sum/]
+### [15. 3Sum](https://leetcode.com/problems/3sum/)
 
 ###### Level Medium
 
@@ -40,9 +40,10 @@ Output:
 []
 ```
 
-###### Explanation: 
+Explanation: 
+```JS
 The only possible triplet does not sum up to 0.
-
+```
 
 
 Example 3:
@@ -58,9 +59,10 @@ Output:
 ```
 
 
-###### Explanation: 
+Explanation: 
+```JS
 The only possible triplet sums up to 0.
- 
+```
 
 ###### Constraints:
 ```JS
