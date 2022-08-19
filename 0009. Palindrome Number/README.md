@@ -1,4 +1,4 @@
-### 9. Palindrome Number
+### [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
 ###### Level Easy
 
@@ -11,35 +11,55 @@ For example, 121 is a palindrome while 123 is not.
 
 Example 1:
 
+Input: 
 ```JS
-Input: x = 121
-Output: true
+x = 121
+```
+Output: 
+```JS
+true
 ```
 
 Explanation: 
+```JS
 121 reads as 121 from left to right and from right to left.
-
+```
 
 Example 2:
+
+Input: 
 ```JS
-Input: x = -121
-Output: false
+x = -121
+```
+Output: 
+```JS
+false
 ```
 
 Explanation: 
+```JS
 From left to right, it reads -121. 
 From right to left, it becomes 121-. Therefore it is not a palindrome.
+```
+
 
 Example 3:
+
+Input: 
 ```JS
-Input: x = 10
-Output: false
+x = 10
+```
+Output: 
+```JS
+false
 ```
 
 Explanation: 
+```JS
 Reads 01 from right to left. Therefore it is not a palindrome.
+```
 
-Constraints:
+##### Constraints:
 ```JS
 -231 <= x <= 231 - 1
 ```
