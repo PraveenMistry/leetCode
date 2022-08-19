@@ -1,4 +1,4 @@
-### 8. String to Integer (atoi)
+### [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
 
 ###### Level: Medium
 
@@ -19,9 +19,14 @@ Do not ignore any characters other than the leading whitespace or the rest of th
  
 
 Example 1:
+
+Input: 
 ```JS
-Input: s = "42"
-Output: 42
+s = "42"
+```
+Output: 
+```JS
+42
 ```
 
 Explanation: 
@@ -37,12 +42,18 @@ Since 42 is in the range [-231, 231 - 1], the final result is 42.
 
 
 Example 2:
+
+Input: 
 ```JS
-Input: s = "   -42"
-Output: -42
+s = "   -42"
+```
+Output:
+```JS
+-42
 ```
 
 Explanation:
+```JS
 Step 1: "   -42" (leading whitespace is read and ignored)
             ^
 Step 2: "   -42" ('-' is read, so the result should be negative)
@@ -51,14 +62,22 @@ Step 3: "   -42" ("42" is read in)
                ^
 The parsed integer is -42.
 Since -42 is in the range [-231, 231 - 1], the final result is -42.
+```
+
 
 Example 3:
+
+Input: 
 ```JS
-Input: s = "4193 with words"
-Output: 4193
+s = "4193 with words"
+```
+Output: 
+```JS
+4193
 ```
 
 Explanation:
+```JS
 Step 1: "4193 with words" (no characters read because there is no leading whitespace)
          ^
 Step 2: "4193 with words" (no characters read because there is neither a '-' nor '+')
@@ -67,9 +86,9 @@ Step 3: "4193 with words" ("4193" is read in; reading stops because the next cha
              ^
 The parsed integer is 4193.
 Since 4193 is in the range [-231, 231 - 1], the final result is 4193.
- 
+```
 
-Constraints:
+##### Constraints:
 ```JS
 0 <= s.length <= 200
 s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
