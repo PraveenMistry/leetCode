@@ -1,4 +1,4 @@
-### 268. Missing Number
+### [268. Missing Number](https://leetcode.com/problems/missing-number/)
 
 ##### Level Easy
 
@@ -18,8 +18,9 @@ Output:
 ```
 
 Explanation: 
+```JS
 n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 2 is the missing number in the range since it does not appear in nums.
-
+```
 
 Example 2:
 
@@ -51,8 +52,9 @@ Output:
 ```
 
 Explanation:
+```JS
 n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is the missing number in the range since it does not appear in nums.
- 
+```
 
 Constraints:
 ```JS
