@@ -1,6 +1,6 @@
 ### [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
-###### Level Medium
+##### Level Medium
 
 A conveyor belt has packages that must be shipped from one port to another within days days.
 
@@ -33,16 +33,18 @@ Input:
 ```JS
 weights = [3,2,2,4,1,4], days = 3
 ```
-
 Output: 
 ```JS
 6
 ```
-###### Explanation: 
+
+Explanation: 
+```JS
 A ship capacity of 6 is the minimum to ship all the packages in 3 days like this:
 1st day: 3, 2
 2nd day: 2, 4
 3rd day: 1, 4
+```
 
 
 Example 3:
@@ -51,17 +53,18 @@ Input:
 ```JS
 weights = [1,2,3,1,1], days = 4
 ```
-
 Output: 
 ```JS
 3
 ```
-###### Explanation:
+
+Explanation:
+```JS
 1st day: 1
 2nd day: 2
 3rd day: 3
 4th day: 1, 1
- 
+```
 
 ###### Constraints:
 ```JS
@@ -69,14 +72,14 @@ Output:
 1 <= weights[i] <= 500
 ```
 
-###### Note:
+***Note:***
 Same As a book allocation problem
 
 
 
 ### [174. Allocate Books](https://www.codingninjas.com/codestudio/problems/allocate-books_1090540)
 
-###### Problem Statement
+##### Problem Statement
 
 Given an array ‘arr’ of integer numbers . where ‘arr[i]’ represents the number of pages in the ‘i-th’ book. There are  ‘m’ number of students and the task is to allocate all the books to their students. Allocate books in such a way that:
 
@@ -104,13 +107,13 @@ All possible way to allocate the ‘4’ books in ‘2’ number of students is 
 10, 20 | 30, 40 - sum of all the pages of books which allocated to student-1 is ‘10+ 20 = 30’, and student-2 is ‘30+ 40 = 70’ so maximum is ‘max(30, 70)= 70’.
 
 10, 20, 30 | 40 - sum of all the pages of books which allocated to student-1 is ‘10+ 20 +30 = 60’, and student-2 is ‘40’ so maximum is ‘max(60, 40)= 60’.
-```
 
 So possible maximum number of pages which allocated to a single student is { 90, 70, 60 }.
 
 But you have to return a minimum of this so return ‘min(90,70,60) =60’.
+```
 
-###### Note:
+***Note:***
 1. Do not print anything, just return the maximum number of pages that are assigned to a student is minimum.
 2. If it is not possible to assign the ‘n’ books to ‘m’ students then return ‘-1’.
 
@@ -129,7 +132,7 @@ Sample Output 1:
 100
 ```
 
-###### Explanation Of Sample Input 1:
+Explanation Of Sample Input 1:
 
 Test Case 1:
 
@@ -185,7 +188,7 @@ Sample Output 2:
 
 
 
-### 89. (Painter's Partition Problem)[https://www.codingninjas.com/codestudio/problems/painter-s-partition-problem_1089557]
+### [89. Painter's Partition Problem](https://www.codingninjas.com/codestudio/problems/painter-s-partition-problem_1089557)
 
 Given an array/list of length ‘N’, where the array/list represents the boards and each element of the given array/list represents the length of each board. Some ‘K’ numbers of painters are available to paint these boards. Consider that each unit of a board takes 1 unit of time to paint.
 
