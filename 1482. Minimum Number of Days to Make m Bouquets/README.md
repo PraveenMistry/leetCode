@@ -1,4 +1,4 @@
-### (1482. Minimum Number of Days to Make m Bouquets)[https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/]
+### [1482. Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)
 
 ##### Level Medium
 
@@ -58,7 +58,7 @@ Output:
 	12
 ```
 
-##### Explanation: 
+Explanation: 
 ```JS
 We need 2 bouquets each should have 3 flowers.
 Here is the garden after the 7 and 12 days:
