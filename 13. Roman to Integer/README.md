@@ -1,6 +1,6 @@
-### 13. Roman to Integer
+### [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
-###### Level Easy
+###### Easy
 
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
@@ -41,8 +41,10 @@ Input: s = "LVIII"
 Output: 58
 ```
 
-Explanation: L = 50, V= 5, III = 3.
-
+Explanation: 
+```JS
+L = 50, V= 5, III = 3.
+```
 
 Example 3:
 ```JS
@@ -50,8 +52,10 @@ Input: s = "MCMXCIV"
 Output: 1994
 ```
 
-Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
- 
+Explanation: 
+```JS
+M = 1000, CM = 900, XC = 90 and IV = 4.
+```
 
 Constraints:
 ```JS
