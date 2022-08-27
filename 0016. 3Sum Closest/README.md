@@ -1,4 +1,4 @@
-### (16. 3Sum Closest)[https://leetcode.com/problems/3sum-closest/]
+### [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 
 ##### Level Medium
 
@@ -9,14 +9,13 @@ You may assume that each input would have exactly one solution.
  
 
 Example 1:
-
-Input: 
 ```JS
+Input: 
 nums = [-1,2,1,-4], target = 1
 ```
 
-Output: 
 ```JS
+Output: 
 2
 ```
 
@@ -26,18 +25,16 @@ The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 ```
 
 Example 2:
-
-Input: 
 ```JS
+Input: 
 nums = [0,0,0], target = 1
 ```
-
-Output: 
 ```JS
+Output: 
 0
 ```
 
-Constraints:
+##### Constraints:
 ```JS
 3 <= nums.length <= 1000
 -1000 <= nums[i] <= 1000
